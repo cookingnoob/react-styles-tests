@@ -1,12 +1,15 @@
 
 import './App.css'
-import Main from './main/Main'
+import MenuPage from './pages/MenuPage'
+import WelcomePage from './pages/WelcomePage'
+
 
 function App() {
 
   return (
     <>
-      <Main />
+      {/* <WelcomePage /> */}
+      <MenuPage />
     </>
   )
 }
